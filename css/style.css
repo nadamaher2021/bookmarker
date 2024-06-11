@@ -1,0 +1,74 @@
+body{
+   
+    scroll-behavior: smooth;
+    background-color :rgb(247, 236, 222)
+}
+
+
+.bookmarkerr{
+   
+
+ width: 100%;
+
+ position: relative;
+
+}
+
+
+.bookmarkerr h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+}
+.bookmarkerr h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: all 500ms;
+    z-index: -1;
+}
+.bookmarkerr h1:hover::before{
+    height: 60%;
+}
+
+
+
+
+h2{
+  
+        font-family: "Righteous", cursive;
+        font-size: 25px;
+        background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+
+
+
+.btn{
+    color: #fff;
+    background-color :rgb(188, 52, 14)
+}
+.btn:hover{
+    background-color :rgb(167, 54, 23);
+    color: #fff;
+}
+.text{
+    color :rgb(33, 37, 41);
+
+font-family :"PT Sans Caption", sans-serif;
+font-size :16px;
+font-weight :700;
+height: 40.4px;
+line-height :24px;
+}
+.line{
+    border: 1px dashed rgb(43, 43, 43);
+    width: 100%;
+}
